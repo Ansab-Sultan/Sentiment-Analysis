@@ -23,7 +23,7 @@ Sentiment analysis is a critical component of natural language processing, allow
 
 ## Projects
 
-### Twitter Sentiment Analysis using Logistic Regression
+### 1- Twitter Sentiment Analysis using Logistic Regression
 
 - **Description**: Analyzing sentiment in Twitter data using logistic regression.
 - **Technologies**: Python, scikit-learn, NLTK, pandas, numpy, matplotlib, pickle.
