@@ -12,8 +12,7 @@ This repository contains a series of sentiment analysis projects undertaken by m
 - [Projects](#projects)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
-
+- 
 ---
 
 ## Introduction
@@ -59,10 +58,5 @@ Contributions to these projects are welcome! If you have any ideas for improveme
 
 ---
 
-## License
-
-This repository is licensed under the terms of the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
 
 This README.md provides a comprehensive overview of the sentiment analysis projects contained within the repository, highlighting key technologies, features, and contributions. Let me know if you need any further adjustments or additions!
