@@ -7,10 +7,11 @@ from nltk.stem.porter import PorterStemmer
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import accuracy_score
+from sklearn.metrics import accuracy_score, plot_roc_curve
 import pickle
 from zipfile import ZipFile
 import os
+import matplotlib.pyplot as plt
 
 # Download the Kaggle dataset
 !mkdir -p ~/.kaggle
@@ -107,6 +108,11 @@ if prediction[0] == 0:
     print('Negative Tweet')
 else:
     print('Positive Tweet')
+
+# Plotting ROC Curve
+plot_roc_curve(model, X_test, Y_test)
+plt.title('ROC Curve')
+plt.show()
 
 # Saving the trained model to disk
 filename = 'trained_model.sav'
