@@ -9,15 +9,28 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 import pickle
+from zipfile import ZipFile
+import os
 
-# Downloading NLTK stopwords
+# Download the Kaggle dataset
+!mkdir -p ~/.kaggle
+!cp kaggle.json ~/.kaggle/
+!chmod 600 ~/.kaggle/kaggle.json
+!kaggle datasets download -d kazanova/sentiment140
+
+# Extract the dataset
+with ZipFile('sentiment140.zip', 'r') as zip_ref:
+    zip_ref.extractall()
+    print('The dataset is extracted')
+
+# Download NLTK stopwords
 nltk.download('stopwords')
 
-# Defining column names for the dataset
+# Define column names for the dataset
 column_names = ['target', 'id', 'date', 'flag', 'user', 'text']
 
 # Loading Twitter dataset
-twitter_data = pd.read_csv('twitter_dataset.csv', names=column_names, encoding='ISO-8859-1')
+twitter_data = pd.read_csv('training.1600000.processed.noemoticon.csv', names=column_names, encoding='ISO-8859-1')
 
 # Replacing target values to binary (0 for negative sentiment, 1 for positive sentiment)
 twitter_data.replace({'target': {4: 1}}, inplace=True)
