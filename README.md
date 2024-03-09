@@ -12,7 +12,7 @@ This repository contains a series of sentiment analysis projects undertaken by m
 - [Projects](#projects)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- 
+  
 ---
 
 ## Introduction
@@ -23,23 +23,11 @@ Sentiment analysis is a critical component of natural language processing, allow
 
 ## Projects
 
-### Project 1: Twitter Sentiment Analysis
+### Twitter Sentiment Analysis using Logistic Regression
 
 - **Description**: Analyzing sentiment in Twitter data using logistic regression.
 - **Technologies**: Python, scikit-learn, NLTK, pandas, numpy, matplotlib, pickle.
 - **Features**: Preprocessing of text data, TF-IDF vectorization, logistic regression modeling, evaluation metrics.
-
-### Project 2: Product Review Sentiment Analysis
-
-- **Description**: Analyzing sentiment in product reviews using deep learning techniques.
-- **Technologies**: Python, TensorFlow, Keras, NLTK, pandas, numpy.
-- **Features**: Deep neural network architecture, word embeddings, sequence modeling, evaluation metrics.
-
-### Project 3: Sentiment Analysis on Financial News
-
-- **Description**: Analyzing sentiment in financial news articles using recurrent neural networks.
-- **Technologies**: Python, TensorFlow, Keras, NLTK, pandas, numpy.
-- **Features**: Recurrent neural network architecture, word embeddings, LSTM cells, sentiment classification.
 
 ---
 
