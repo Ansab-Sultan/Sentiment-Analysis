@@ -12,7 +12,6 @@ This repository contains a series of sentiment analysis projects undertaken by m
 - [Projects](#projects)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#License)
   
 ---
 
@@ -43,14 +42,9 @@ Each project is contained within its respective directory. To explore a specific
 
 ## Contributing
 
-- [Muhammad Ansab Sultan](https://github.com/Ansab-Sultan) - Project Developer
+- [Muhammad Ansab Sultan](https://github.com/Ansab-Sultan) - Projects Developer
 
 Contributions to this project are welcome! Feel free to contribute by opening issues or submitting pull requests.
-
----
-## License
-
-This project is licensed under the MIT License.
 
 ---
 
