@@ -16,6 +16,7 @@ Twitter Sentiment Analysis is a Python project that leverages machine learning t
 - [Saving the Model](#saving-the-model)
 - [Requirements](#requirements)
 - [Contributing](#contributing)
+- [License](#License)
 
 ## Introduction
 
@@ -87,8 +88,16 @@ The Twitter dataset used in this project comprises tweets labeled with sentiment
 
 ## Contributing
 
-Contributions are welcome! Please feel free to open a pull request for any improvements or bug fixes.
+- [Muhammad Ansab Sultan](https://github.com/Ansab-Sultan) - Projects Developer
 
+Contributions to this project are welcome! Feel free to contribute by opening issues or submitting pull requests.
+
+---
+## License
+
+This project is licensed under the MIT License.
+
+---
 
 Feel free to customize this README.md to better suit your project's needs. If you have any further questions or require additional assistance, please don't hesitate to ask.
 
