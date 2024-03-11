@@ -48,4 +48,4 @@ Contributions to this project are welcome! Feel free to contribute by opening is
 
 ---
 
-This README.md provides a comprehensive overview of the sentiment analysis projects contained within the repository, highlighting key technologies, features, and contributions. Let me know if you need any further adjustments or additions!
+This README.md provides a comprehensive overview of the sentiment analysis projects contained within the repository
