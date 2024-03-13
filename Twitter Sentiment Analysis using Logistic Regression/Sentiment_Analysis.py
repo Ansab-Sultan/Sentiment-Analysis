@@ -71,6 +71,10 @@ vectorizer = TfidfVectorizer()
 X_train = vectorizer.fit_transform(X_train)
 X_test = vectorizer.transform(X_test)
 
+# Saving the TF-IDF vectorizer to disk
+with open('tfidf_vectorizer.pkl', 'wb') as file:
+    pickle.dump(vectorizer, file)
+    
 # Initializing Logistic Regression model
 model = LogisticRegression(max_iter=1000)
 
