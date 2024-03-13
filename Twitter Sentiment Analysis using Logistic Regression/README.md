@@ -14,9 +14,10 @@ Twitter Sentiment Analysis is a Python project that leverages machine learning t
 - [Sample Prediction](#sample-prediction)
 - [ROC Curve](#roc-curve)
 - [Saving the Model](#saving-the-model)
+- [Streamlit App](#streamlit-app)
 - [Requirements](#requirements)
 - [Contributing](#contributing)
-- [License](#License)
+- [License](#license)
 
 ## Introduction
 
@@ -77,6 +78,10 @@ The Twitter dataset used in this project comprises tweets labeled with sentiment
 
 - The trained logistic regression model is serialized to disk using the pickle library for future use.
 
+## Streamlit App
+
+A Streamlit web application is included for real-time sentiment analysis. Users can input text and receive sentiment predictions instantly.
+
 ## Requirements
 
 - Python 3.x
@@ -85,6 +90,7 @@ The Twitter dataset used in this project comprises tweets labeled with sentiment
 - scikit-learn
 - nltk
 - matplotlib
+- streamlit
 
 ## Contributing
 
@@ -92,12 +98,9 @@ The Twitter dataset used in this project comprises tweets labeled with sentiment
 
 Contributions to this project are welcome! Feel free to contribute by opening issues or submitting pull requests.
 
----
 ## License
 
 This project is licensed under the MIT License.
 
 ---
-
-Feel free to customize this README.md to better suit your project's needs. If you have any further questions or require additional assistance, please don't hesitate to ask.
 
